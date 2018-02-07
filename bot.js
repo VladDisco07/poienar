@@ -14,8 +14,8 @@ const token = 'NDA5NDQ5NTc1NDI2OTQ5MTI0.DVexJA.t8Y6Ntoi5iOYvVXbpz88ezj7cho';
 // The ready event is vital, it means that your bot will only start reacting to information
 // from Discord _after_ ready is emitted
 client.on('ready', () => {
-  bot.user.setGame("Hello Mother Fucker!");
   console.log('I am ready!');
+  bot.user.setGame("Hello Mother Fucker!");
 });
 
 // Create an event listener for new guild members
