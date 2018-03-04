@@ -30,7 +30,7 @@ Speram sa iti placa aceast server care este facut cu mare grija, pentru a putea 
 :japanese_goblin: **Ghid noi-veniti**:
 Pentru inceput, te rugam sa treci pe aceste canale:
 - #index - Vezi index-ul si regulamentul server-ului
-- #info - Noutatiile acestui server`);
+- #info - Noutatile acestui server`);
 });
 
 // Log our bot in
