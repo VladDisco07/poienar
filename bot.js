@@ -25,12 +25,12 @@ client.on('guildMemberAdd', member => {
   if (!channel) return;
   // Send the message, mentioning the member
   channel.send(`:japanese_goblin: **Bine ai venit**, ${member}!
-Bun venit pe server-ul Tokyo-Poienarii!
+Bun venit pe server-ul Spring-Poienarii!
 Speram sa iti placa aceast server care este facut cu mare grija, pentru a putea sa te simti bine.
 :japanese_goblin: **Ghid noi-veniti**:
 Pentru inceput, te rugam sa treci pe aceste canale:
-- #regulament - Vezi regulamentul acestui server pe acest canal
-- #noutati - Canal destinat informatiilor acestui server`);
+- #index - Vezi index-ul si regulamentul server-ului
+- #info - Noutatiile acestui server`);
 });
 
 // Log our bot in
