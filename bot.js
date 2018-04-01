@@ -13,9 +13,9 @@ const token = 'NDMwMDcyMDAxMTcyODY1MDI1.DaK3jQ.dt3atrv4upv-CpPoQxupza1w4sg';
 
 // The ready event is vital, it means that your bot will only start reacting to information
 // from Discord _after_ ready is emitted
-bot.on("ready", function () {
-	bot.user.setGame("Niscăi servere foarte bune: https://discord.gg/pqtyJ4U şi https://discord.gg/3Jw5wUp");
-	console.log("Ready");
+client.on('ready', () => {
+  client.user.setGame("test");
+  console.log('I am ready!');
 });
 
 // Create an event listener for new guild members
