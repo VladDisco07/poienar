@@ -24,14 +24,7 @@ client.on('guildMemberAdd', member => {
   // Do nothing if the channel wasn't found on this server
   if (!channel) return;
   // Send the message, mentioning the member
-  channel.send(`** :pushpin: Bun venit ${member} pe WonderGames! :shield: **
-`` Nu uita sa vizitezi ``
-** #aplicatie-staff - Pentru a fi in staff sa faci o cerere!
-#cerere-parteneriat - daca doresti parteneriat cu noi
-#magazin-grade - dacxa doresti sa cumperi un grad!
-#anunturi - anunturile!
-#index - Index-ul server-ului!**
-:tools: ``Bun venit si ms de join`` :wink: :heart:`);
+  channel.send(`Bine ai veit pe **« WonderGames ϟ »**, ${member}`);
 });
 
 // Log our bot in
